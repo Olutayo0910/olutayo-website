@@ -1,0 +1,80 @@
+		
+		.section {
+			margin-right: -9px;
+			background-color: lightpink;
+			font-family: 'poppins', sans-serif;
+			
+			
+		}
+		.banner-container {
+			display: grid;
+			grid-template-columns: 2fr 1fr;	
+			background-color: lightpink;
+			width: 100%;
+			justify-content: center;
+			padding: 0;
+			left: 0;
+			right: 0;
+			margin-left: -9px;
+			margin-top: 20px;
+			
+			
+		}
+		@media (max-width: 800px) {
+			.banner-container {
+			grid-template-columns: 1fr;
+			}
+		}
+		.left-section {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-left: 150px;
+			padding-top: 10px;
+					
+		}
+		.my-name {
+			font-weight: 800;
+			line-height: 1.2em;
+			color: rgb(34, 34, 34);
+			font-size: 36px;
+			
+		}
+		.profile-picture-container img {
+			max-width: 100%;
+			height: auto;			
+			margin-top: 200px;
+
+		}
+
+		@media (max-width: 800px) {
+			.profile-picture-container img {
+			margin-top: 0px;;
+			}
+		}
+		.profile-picture-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;	
+		}
+	 
+		.introduction {
+			padding-top: 20px;	
+		}
+			
+		.btn1{
+			display: block;
+			margin: 50px auto;
+			width: fit-content;
+			border: 1px solid lightpink;
+			padding: 14px 50px;
+			border-radius: 6px;
+			text-decoration: none;
+			color: white;
+			transition: background 0.5px;
+			background-color: grey;
+		
+		}
+		.btn1:hover{
+			background: lightcoral;
+		}

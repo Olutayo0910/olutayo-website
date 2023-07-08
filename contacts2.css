@@ -1,0 +1,207 @@
+#contact{
+    padding-top: 70px;
+}
+
+.contact-left{
+    flex-basis: 45%;
+}
+
+.contact-right{
+    flex-basis: 50%;
+}
+.about-me-container, .contact-container{
+    background-color: #f9f9ff;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.contact-left p{
+    margin-top: 30px;    
+}
+.contact-left p i{
+    margin-right: 15px;
+    color: lightpink;
+    font-size: 15px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    color: grey;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color:lightpink;
+    transform: translateY(5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: lightpink;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 80%;
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 6px;
+    border: solid 0.5px;
+    background-color: white;
+    outline: none;
+    margin: 15px;
+
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin: 15px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 18px 0;
+    background: lightpink;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: -15px;
+}
+nav .fa-solid {
+    display: none;
+  }
+  .row-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: #f9f9ff;
+    
+}
+.row-A {			
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+  
+  @media only screen and (max-width: 742px) {
+   nav .fa-solid {
+      display: block;
+      font-size: 25px;
+    }
+    nav ul{
+        background: pink;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 130px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 65px;
+        cursor: pointer;
+    }
+    .about-me-title, .sub-title, .my-name{
+        font-size: 18px;
+    }
+    
+    .col-right, .col-left{
+        flex-basis: 100%;
+    }
+    .col-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .banner-container img{
+        max-width: 40%;
+        height: auto;
+        margin-top: -70px;
+    }
+    .col-left img{
+        max-width: 50%;
+        height: auto;
+    }
+    .col-right, .my-offered-services, .introduction{
+        font-size: 12px;
+    }
+    .left-section{
+        margin: 60px 30px;
+    }
+    .btn1{
+       margin-top: 0px;
+       padding: 14px 15px;
+    }
+    .section{
+        margin-top: 60px;
+    }
+    .header-container{
+        padding: 4px 4%;
+        
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .copyright{
+        font-size: 10px;
+    }
+    
+    .services-list{
+        grid-template-columns: repeat(1, minmax(250px, 1fr));
+        justify-content: center;
+        
+    }
+    .work-list{
+        grid-template-columns: repeat(1, minmax(350px, 1fr));
+        justify-content: center;
+        margin-left: 40px;
+        padding: 0px;
+        margin-top: 0px;
+        
+    }
+    .work{
+        margin-bottom: 20px;
+    }
+    .my-offered-services {
+        width: 350px;		    
+    }
+    body{
+        font-size: 12px;
+    }
+  }
+
+  #span{
+    color: black;
+    margin-top: -40px;
+    display: block;
+    
+  }
+
+  
+
+
+
+
+

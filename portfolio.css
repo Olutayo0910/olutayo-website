@@ -1,15 +1,38 @@
 #portfolio{
     padding-top: 70px;
-
+    
 }
+.portfolio-container{
+			
+    
+    font-family: 'poppins', sans-serif;
+}		
 .work-list{
     display: grid;
-    grid-template-columns: repeat(3, minmax(350px, 1fr));
-    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;;
     align-items: center;
 	justify-content: center;
     place-items: center;
+    row-gap: 50px;
+    
      
+}
+@media screen and (max-width: 768px) {
+    .work-list {
+    grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 999px) {
+    .work-list {
+    grid-template-columns: 1fr 1fr
+}
+
+}
+@media screen and (min-width: 1000px) {
+    .work-list {
+    grid-template-columns: 1fr 1fr 1fr
+}
+
 }
 .container{
     align-items: center;
@@ -48,7 +71,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+    
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
@@ -56,6 +79,9 @@
 .layer h3{
     font-weight: 500;
     margin-bottom: 20px;
+}
+.layer p{
+    width: 200px;
 }
 .layer a{
     margin-top: 20px;

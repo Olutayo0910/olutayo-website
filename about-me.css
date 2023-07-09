@@ -40,15 +40,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 60px;
+    padding: 10px 40px;
     
     
 }
 .col-left {
     flex-basis: 35%;
 }
+.col-right p{
+    text-align: justify;
+}
 .col-right {
     flex-basis: 60%;
+   
+    
 }
 .col-right h1 {
     display: flex;
